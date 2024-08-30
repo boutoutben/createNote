@@ -1,0 +1,160 @@
+body{
+    background-color: wheat;
+}
+
+.navbar{
+    background-color: rgb(54, 54, 54);
+    display: flex;
+    color: white;
+    margin-bottom: 25px;
+}
+.navbarTitle{
+    margin-left: 3%;
+}
+
+.disconnectIcon{
+    margin-left: 90%;
+}
+
+.form{
+    display: flex;
+    flex-direction:column;
+    background-color: rgb(229, 228, 149);
+    margin: 50px 10%;
+    align-items: center;
+    font-size: 4vh;
+}
+
+table input{
+    width: 150%;
+    height: 20px;
+}
+
+.btn-home{
+    display: flex;
+    background-color: rgb(247, 214, 214);
+    font-size: 25px;
+    margin: 25px 30%;
+}
+
+.title{
+    text-align: center;
+    font-size: 50px;
+}
+
+.subtitle{
+    text-align: center;
+    font-size: 40px;
+}
+.invisible{
+    display: none;
+}
+
+.visible{
+    display: block;
+}
+
+.allTheme{
+    margin: 50px 10%;
+}
+
+.theme{
+    background-color: rgb(229, 228, 149);
+    border: black solid 2px;
+    text-align: center;
+    width: 95%;
+}
+
+.allNotes{
+    margin: 50px 10%;
+}
+
+.note{
+    background-color: rgb(229, 228, 149);
+    border: black solid 2px;
+    text-align: center;
+    width: 95%;
+}
+
+.delete{
+    width: 5%;
+    background-color: red;
+    border: black solid 1px;
+    align-content: center;
+    align-items: center;
+}
+
+.crossImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title_date{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.titleNote{
+    margin-left: 45%;
+}
+
+.dateNote{
+    margin-right: 2%;
+    font-size: 25px;
+}
+
+.createNewEle{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 4%;
+}
+
+.btn-ele{
+    width: 10%;
+    font-size: 20px;
+    background-color: rgb(235, 178, 178);
+    
+}
+.ele_drop{
+    display: flex;
+}
+
+.margin-1{
+    margin: 0 1%;
+}
+
+.text{
+    font-size: 30px;
+    text-align: center;
+}
+
+.createForm{
+    margin: 25px 0;
+}
+
+.createForm input{
+    width: 100%;
+    height: 25px;
+}
+.btn-createForm{
+    width: 40%;
+    height: auto;
+    margin-left: 40%;
+    background-color: rgb(231, 161, 161);
+}
+.allBtn{
+    display: flex;
+}
+
+.allBtn .btn-ele{
+    width: 40%;
+    font-size: 20px;
+    background-color: rgb(235, 178, 178);
+}
+
+.returnTheme{
+    margin-right: 5%;
+    background-color: rgb(199, 70, 70);
+}
